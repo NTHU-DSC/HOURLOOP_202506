@@ -1,0 +1,163 @@
+{
+    "AMAZON_LTL":{
+        "SVR": [
+            "log_weight",
+            "log_Hdis",
+            "across_state",
+            "from_state_encoded_AMAZON_LTL",
+            "vendor_name_encoded_AMAZON_LTL"
+        ],
+        "CatBoost": [
+            "across_state",
+            "from_state",
+            "from_city",
+            "log_Hdis",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Hdis",
+            "vendor_name_encoded_AMAZON_LTL"
+        ]
+    },
+
+    "AMAZON_FREIGHT":{
+        "SVR": [
+            "log_weight",
+            "log_Hdis",
+            "to_state_encoded_AMAZON_FREIGHT"
+        ],
+        "CatBoost": [
+            "across_state",
+            "log_TVP",
+            "to_state",
+            "log_Hdis",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Mdis"
+        ]
+    },
+
+    "AMAZON_UPS_PARCEL":{
+        "SVR": [
+            "log_weight",
+            "log_Hdis",
+            "log_volume"
+        ],
+        "CatBoost": [
+            "from_state",
+            "vendor_name",
+            "log_volume",
+            "log_Hdis",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Hdis",
+            "log_volume",
+            "log_TVP",
+            "vendor_name_encoded_AMAZON_UPS_PARCEL"
+        ]
+    },
+
+    "HOUR_LOOP_FEDEX_PARCEL":{
+        "SVR": [
+            "log_weight",
+            "log_Mdis",
+            "to_state_encoded_HOUR_LOOP_FEDEX_PARCEL",
+            "vendor_name_encoded_HOUR_LOOP_FEDEX_PARCEL"
+        ],
+        "CatBoost": [
+            "log_Hdis",
+            "log_volume",
+            "log_TVP",
+            "from_state",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_TVP",
+            "log_Hdis"
+        ]
+    },
+
+    "WWE_LTL":{
+        "Bayesian": [
+            "across_state",
+            "log_volume",
+            "log_TVP/log_weight",
+            "log_Hdis"
+        ],
+        "CatBoost": [
+            "log_TVP",
+            "log_Hdis",
+            "to_state",
+            "log_volume",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Hdis"
+        ]
+    },
+
+    "WWE_PARCEL":{
+        "SVR": [
+            "log_weight",
+            "log_Hdis"
+        ],
+        "CatBoost": [
+            "from_state",
+            "to_state",
+            "log_volume",
+            "log_Hdis",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Mdis"
+        ]
+    },
+
+    "UBER_LTL":{
+        "SVR": [
+            "log_weight",
+            "log_Mdis",
+            "from_state_encoded_UBER_LTL"
+        ],
+        "CatBoost": [
+            "from_state",
+            "from_city",
+            "log_Hdis",
+            "log_volume",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_Mdis",
+            "vendor_name_encoded_UBER_LTL"
+        ]
+    },
+
+    "ESTES":{
+        "SVR": [
+            "log_weight",
+            "to_state_encoded_ESTES"
+        ],
+        "CatBoost": [
+            "from_city",
+            "to_state",
+            "log_volume",
+            "log_TVP",
+            "log_weight"
+        ],
+        "RandomForest": [
+            "log_weight",
+            "log_TVP",
+            "log_volume",
+            "vendor_name_encoded_ESTES"
+        ]
+    }
+}
