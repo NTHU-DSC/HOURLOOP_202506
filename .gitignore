@@ -1,4 +1,15 @@
 # Python cache
-App/utils/__pycache__/
-*.pyc
-*.pyo
+__pycache__/
+*.py[cod]
+
+# VSCode settings
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS 系統檔案
+.DS_Store
+
+# Model files - 如果你只想讓 Git LFS 管理它們
+*.pkl
