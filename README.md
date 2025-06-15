@@ -1,19 +1,37 @@
-# Hourloop
-Shipment charge prediction
+# Cost Prediction System for Domestic US Shipping
 
-## Problem Formulation
+## 🚚 Project Overview
+This repository contains a multi-model machine learning pipeline to predict shipping cost for different shipping methods in the US domestic logistics market. The models are tailored to each `ship_method`, improving forecasting accuracy and aiding operational decisions.
 
-為了降低成本預估偏誤，並提升物流決策效率，本專案目標是建立一套以機器學習為基礎的多模型預測系統，用於依據訂單特徵推估不同運送方式的運費。
+## 🎯 Goal
+- Predict shipping cost using tabular order features
+- Support multiple shipping methods (e.g., AMAZON_FREIGHT, UPS_PARCEL...)
+- Provide ranked suggestions for lowest estimated cost
 
-系統以運輸方式（ship_method）為切分基礎，針對每一類別分別訓練模型，輸入特徵包含商品重量、體積、出貨與收貨地州別等，目標變數為實際運費（取對數後建模）。所有模型皆透過前處理模組進行自動化標準化與類別編碼，並以最佳參數儲存為 pipeline 形式供部署與預測使用。
+## 🧠 Models Used
+- Linear Regression (OLS, Ridge, Lasso)
+- Bayesian Ridge Regression
+- Random Forest
+- CatBoost
+- Support Vector Regression (SVR)
 
-### 整體流程架構
+## 🏗 Project Structure
+- `src/` → Core logic (data processing, prediction models)
+- `notebooks/` → Training notebooks with tuning
+- `app/` → Streamlit UI interface
+- `models/` → Pretrained model files (.pkl / .cbm)
+- `data/` → Sample data or structure files
+- `docs/` → Technical documentation
 
-我們的系統整體流程與架構如下：
+## 🔁 Data Flow
+1. User input/order batch uploaded
+2. `DataPipeline` transforms features
+3. `FinalModel` predicts cost using top-3 models per method
+4. Sorted results returned for decision making
 
-- 模組化架構：輸入資料 → 自動前處理 → 模型選擇 → 成本預測與排序
-- 模型分流：根據 ship_method 自動選擇對應模型處理
-- 介面支援：使用者可透過由 Streamlit 建立的前端 UI 輸入單筆資料或批次匯入 .csv 檔案
-- 輸出內容：回傳所有適用運輸方式的預測成本與排序建議，供後端與 PM 使用
-
-本系統目前僅處理預測任務，未自動回寫至資料庫或與第三方 API 整合，日後若有串接需求，模組邏輯設計上具備可擴充性。
+## 📦 Install & Run
+```bash
+git clone https://github.com/your-org/cost-prediction-project.git
+cd cost-prediction-project
+pip install -r requirements.txt
+streamlit run app/main.py
