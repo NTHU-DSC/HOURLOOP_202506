@@ -1,0 +1,20 @@
+{
+    "ship_method": "UBER_LTL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Mdis",
+        "vendor_name_encoded"
+    ],
+    "parameters": {
+        "n_estimators": 2000,
+        "max_depth": 5,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11",
+    "encoding_method": {
+        "vendor_name": "target_encoding"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ship_method": "AMAZON_FREIGHT",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Mdis"
+    ],
+    "parameters": {
+        "n_estimators": 2000,
+        "max_depth": 12,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11"
+}

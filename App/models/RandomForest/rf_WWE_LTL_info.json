@@ -1,0 +1,16 @@
+{
+    "ship_method": "WWE_LTL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Hdis"
+    ],
+    "parameters": {
+        "n_estimators": 2000,
+        "max_depth": 9,
+        "min_samples_split": 5,
+        "min_samples_leaf": 3,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11"
+}
