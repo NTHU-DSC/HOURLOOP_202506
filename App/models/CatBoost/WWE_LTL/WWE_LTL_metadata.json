@@ -1,0 +1,36 @@
+{
+  "ship_method": "WWE_LTL",
+  "selected_features": [
+    "log_TVP",
+    "log_Hdis",
+    "to_state",
+    "log_volume",
+    "log_weight"
+  ],
+  "best_params": {
+    "iterations": 1000,
+    "learning_rate": 0.14822353317162965,
+    "depth": 4,
+    "l2_leaf_reg": 1.4963842477287865,
+    "bagging_temperature": 0.18869925396972914,
+    "random_strength": 9.394419752761687,
+    "border_count": 85,
+    "min_data_in_leaf": 23,
+    "max_ctr_complexity": 3
+  },
+  "feature_importance": {
+    "vendor_name": 0.42224547869597123,
+    "fc_code": 0.17359255110379423,
+    "from_state": 4.208748989791203,
+    "to_state": 8.184891575046423,
+    "from_city": 3.8801438498509317,
+    "to_city": 1.9733591080072654,
+    "log_TVP": 5.574346150196001,
+    "log_weight": 45.87763391148935,
+    "log_volume": 20.83466003425292,
+    "log_Hdis": 7.967204070080455,
+    "across_state": 0.9031742814856056
+  },
+  "target_col": "log_cost",
+  "timestamp": "2025-06-09T13:13:05.631025"
+}

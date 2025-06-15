@@ -1,0 +1,36 @@
+{
+  "ship_method": "HOUR_LOOP_FEDEX_PARCEL",
+  "selected_features": [
+    "log_Hdis",
+    "log_volume",
+    "log_TVP",
+    "from_state",
+    "log_weight"
+  ],
+  "best_params": {
+    "iterations": 800,
+    "learning_rate": 0.048081685128973005,
+    "depth": 7,
+    "l2_leaf_reg": 4.838166584577994,
+    "bagging_temperature": 0.22196021632045135,
+    "random_strength": 7.419303101334441,
+    "border_count": 168,
+    "min_data_in_leaf": 1,
+    "max_ctr_complexity": 4
+  },
+  "feature_importance": {
+    "vendor_name": 0.9604155917417609,
+    "fc_code": 1.2782604330844562,
+    "from_state": 7.753038430998892,
+    "to_state": 4.594689134466791,
+    "from_city": 1.1202856652134812,
+    "to_city": 2.534629054909093,
+    "log_TVP": 6.338879092629252,
+    "log_weight": 61.36958081300931,
+    "log_volume": 6.289186465911545,
+    "log_Hdis": 5.9992471204499065,
+    "across_state": 1.7617881975854777
+  },
+  "target_col": "log_cost",
+  "timestamp": "2025-06-10T10:35:48.333095"
+}

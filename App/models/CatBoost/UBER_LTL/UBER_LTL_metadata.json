@@ -1,0 +1,36 @@
+{
+  "ship_method": "UBER_LTL",
+  "selected_features": [
+    "from_state",
+    "from_city",
+    "log_Hdis",
+    "log_volume",
+    "log_weight"
+  ],
+  "best_params": {
+    "iterations": 1200,
+    "learning_rate": 0.06794758306696126,
+    "depth": 5,
+    "l2_leaf_reg": 4.026380764937953,
+    "bagging_temperature": 0.01699640744482689,
+    "random_strength": 0.012162038448585627,
+    "border_count": 179,
+    "min_data_in_leaf": 31,
+    "max_ctr_complexity": 4
+  },
+  "feature_importance": {
+    "vendor_name": 1.2925495190274887,
+    "fc_code": 4.638123531630757,
+    "from_state": 4.75036865468834,
+    "to_state": 4.087308088021415,
+    "from_city": 4.9118570200379414,
+    "to_city": 3.630682534619362,
+    "log_TVP": 3.741675398616188,
+    "log_weight": 48.57771532339827,
+    "log_volume": 13.176165284507007,
+    "log_Hdis": 9.601459773909555,
+    "across_state": 1.592094871543717
+  },
+  "target_col": "log_cost",
+  "timestamp": "2025-06-09T22:09:58.124142"
+}

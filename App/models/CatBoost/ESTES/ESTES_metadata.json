@@ -1,0 +1,36 @@
+{
+  "ship_method": "ESTES",
+  "selected_features": [
+    "from_city",
+    "to_state",
+    "log_volume",
+    "log_TVP",
+    "log_weight"
+  ],
+  "best_params": {
+    "iterations": 1000,
+    "learning_rate": 0.25207380920137645,
+    "depth": 4,
+    "l2_leaf_reg": 1.1437495902404138,
+    "bagging_temperature": 0.797565676352345,
+    "random_strength": 7.608742277359259,
+    "border_count": 76,
+    "min_data_in_leaf": 39,
+    "max_ctr_complexity": 2
+  },
+  "feature_importance": {
+    "vendor_name": 0.4586037054555364,
+    "fc_code": 0.0,
+    "from_state": 0.9926202942138758,
+    "to_state": 4.388348668315167,
+    "from_city": 3.808593547419006,
+    "to_city": 2.95897812221235,
+    "log_TVP": 17.356507709346655,
+    "log_weight": 62.38462710650753,
+    "log_volume": 5.66661280088974,
+    "log_Hdis": 1.8360806110298227,
+    "across_state": 0.1490274346103028
+  },
+  "target_col": "log_cost",
+  "timestamp": "2025-06-10T09:35:33.223402"
+}
