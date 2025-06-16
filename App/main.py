@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-from src import check_data, datapipeline, predict
+from utils import check_data, datapipeline, predict
 
 st.title("Shipping Cost Predictor v1.0")
 st.subheader("Hour Loop X NTHU DSC")
