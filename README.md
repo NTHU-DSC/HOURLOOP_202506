@@ -15,13 +15,21 @@ This repository contains a multi-model machine learning pipeline to predict ship
 - CatBoost
 - Support Vector Regression (SVR)
 
-## 🏗 Project Structure
-- `src/` → Core logic (data processing, prediction models)
-- `notebooks/` → Training notebooks with tuning
-- `app/` → Streamlit UI interface
-- `models/` → Pretrained model files (.pkl / .cbm)
-- `data/` → Sample data or structure files
-- `docs/` → Technical documentation
+## 📂 Project Structure
+
+- `App/` – Streamlit app and all related code
+    - `main.py` – App entry point
+    - `utils/` – Feature engineering, prediction pipeline, validation
+    - `encoders/` – Encoded categorical features
+    - `models/` – Trained models by algorithm
+- `data/` – Sample inputs or test cases
+- `.gitignore`, `README.md` – Project metadata
+
+## 🚀 Run the app
+
+```bash
+cd HOURLOOP-1
+streamlit run App/main.py
 
 ## 🔁 Data Flow
 1. User input/order batch uploaded
