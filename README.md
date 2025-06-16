@@ -28,7 +28,6 @@ This repository contains a multi-model machine learning pipeline to predict ship
 ## 🚀 Run the app
 
 ```bash
-cd HOURLOOP-1
 streamlit run App/main.py
 
 ## 🔁 Data Flow
