@@ -1,0 +1,36 @@
+{
+  "ship_method": "AMAZON_LTL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "log_Hdis",
+    "across_state",
+    "from_state",
+    "vendor_name"
+  ],
+  "num_features": [
+    "log_weight",
+    "log_Hdis",
+    "across_state"
+  ],
+  "cat_features": [
+    "from_state",
+    "vendor_name"
+  ],
+  "best_params": {
+    "C": 81.58311403532339,
+    "epsilon": 0.39059242077416534,
+    "gamma": 0.16158971758347687
+  },
+  "feature_importance": {
+    "log_weight": 1.3256639279918176,
+    "log_Hdis": 0.1937539537216445,
+    "across_state": 0.21760726246837328,
+    "from_state": 0.14590404279809338,
+    "vendor_name": 0.28543853697279686
+  },
+  "n_train": 3151,
+  "n_val": 788,
+  "n_test": 438,
+  "timestamp": "2025-06-11T16:38:11.440959"
+}

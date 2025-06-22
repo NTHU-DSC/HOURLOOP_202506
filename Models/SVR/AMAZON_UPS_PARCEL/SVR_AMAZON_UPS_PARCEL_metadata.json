@@ -1,0 +1,29 @@
+{
+  "ship_method": "AMAZON_UPS_PARCEL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "log_Hdis",
+    "log_volume"
+  ],
+  "num_features": [
+    "log_weight",
+    "log_Hdis",
+    "log_volume"
+  ],
+  "cat_features": [],
+  "best_params": {
+    "C": 8.904533233040649,
+    "epsilon": 0.1739978188492485,
+    "gamma": 0.1547630356902939
+  },
+  "feature_importance": {
+    "log_weight": 1.6143346510015086,
+    "log_Hdis": 0.06565656542628306,
+    "log_volume": 0.05653421923094957
+  },
+  "n_train": 5396,
+  "n_val": 1349,
+  "n_test": 750,
+  "timestamp": "2025-06-11T18:29:26.722858"
+}

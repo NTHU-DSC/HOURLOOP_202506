@@ -15,3 +15,4 @@ App/utils/__pycache__/
 
 # Model files - 如果你只想讓 Git LFS 管理它們
 *.pkl
+.DS_Store

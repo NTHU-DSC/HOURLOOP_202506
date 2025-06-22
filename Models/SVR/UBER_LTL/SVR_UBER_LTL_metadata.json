@@ -1,0 +1,30 @@
+{
+  "ship_method": "UBER_LTL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "log_Mdis",
+    "from_state"
+  ],
+  "num_features": [
+    "log_weight",
+    "log_Mdis"
+  ],
+  "cat_features": [
+    "from_state"
+  ],
+  "best_params": {
+    "C": 256.9555810753195,
+    "epsilon": 0.3931105382575026,
+    "gamma": 0.016519129924529242
+  },
+  "feature_importance": {
+    "log_weight": 2.2371018759718546,
+    "log_Mdis": 0.1582564050110711,
+    "from_state": 0.04873261682472131
+  },
+  "n_train": 320,
+  "n_val": 81,
+  "n_test": 44,
+  "timestamp": "2025-06-11T16:07:16.926319"
+}

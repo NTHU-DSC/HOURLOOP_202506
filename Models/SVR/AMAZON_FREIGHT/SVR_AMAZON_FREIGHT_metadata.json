@@ -1,0 +1,30 @@
+{
+  "ship_method": "AMAZON_FREIGHT",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "log_Hdis",
+    "to_state"
+  ],
+  "num_features": [
+    "log_weight",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "to_state"
+  ],
+  "best_params": {
+    "C": 55.736076560251256,
+    "epsilon": 0.11231822165041438,
+    "gamma": 0.23417860093980628
+  },
+  "feature_importance": {
+    "log_weight": 2.9458014891182835,
+    "log_Hdis": 0.5319501151613052,
+    "to_state": 0.9623874824716909
+  },
+  "n_train": 232,
+  "n_val": 58,
+  "n_test": 32,
+  "timestamp": "2025-06-11T16:21:46.777544"
+}

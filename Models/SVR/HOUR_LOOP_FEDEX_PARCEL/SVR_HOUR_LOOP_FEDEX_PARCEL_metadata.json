@@ -1,0 +1,33 @@
+{
+  "ship_method": "HOUR_LOOP_FEDEX_PARCEL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "log_Mdis",
+    "to_state",
+    "vendor_name"
+  ],
+  "num_features": [
+    "log_weight",
+    "log_Mdis"
+  ],
+  "cat_features": [
+    "to_state",
+    "vendor_name"
+  ],
+  "best_params": {
+    "C": 17.86094781544563,
+    "epsilon": 0.014085184521747276,
+    "gamma": 0.03983996372116524
+  },
+  "feature_importance": {
+    "log_weight": 1.996299210410457,
+    "log_Mdis": 0.04786501409159454,
+    "to_state": 0.03062879547427807,
+    "vendor_name": 0.07939378077342303
+  },
+  "n_train": 677,
+  "n_val": 170,
+  "n_test": 94,
+  "timestamp": "2025-06-11T16:18:42.723009"
+}

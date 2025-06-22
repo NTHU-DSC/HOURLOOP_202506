@@ -1,0 +1,27 @@
+{
+  "ship_method": "ESTES",
+  "target_col": "log_cost",
+  "selected_features": [
+    "log_weight",
+    "to_state"
+  ],
+  "num_features": [
+    "log_weight"
+  ],
+  "cat_features": [
+    "to_state"
+  ],
+  "best_params": {
+    "C": 755.6857857093129,
+    "epsilon": 0.0228933541579891,
+    "gamma": 0.028654501103860433
+  },
+  "feature_importance": {
+    "log_weight": 3.452432586547444,
+    "to_state": 0.03355936308581926
+  },
+  "n_train": 120,
+  "n_val": 30,
+  "n_test": 17,
+  "timestamp": "2025-06-11T16:11:14.044248"
+}
