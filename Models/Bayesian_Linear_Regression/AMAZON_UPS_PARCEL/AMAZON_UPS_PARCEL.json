@@ -1,0 +1,26 @@
+{
+  "ship_method": "AMAZON_UPS_PARCEL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.3423573792196809,
+    "log_volume": 0.6442871214751288,
+    "log_Hdis": 0.11859291670791461
+  },
+  "n_train": 6745,
+  "n_val": 674,
+  "n_test": 750,
+  "timestamp": "2025-06-12T00:06:04.349959"
+}

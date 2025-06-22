@@ -1,0 +1,26 @@
+{
+  "ship_method": "AMAZON_FREIGHT",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.38333641643633926,
+    "log_volume": 0.8690176663267,
+    "log_Hdis": 0.4152452303896518
+  },
+  "n_train": 290,
+  "n_val": 29,
+  "n_test": 32,
+  "timestamp": "2025-06-12T00:05:58.180309"
+}

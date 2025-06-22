@@ -1,0 +1,26 @@
+{
+  "ship_method": "ESTES",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.17197097405836195,
+    "log_volume": 1.0166758589692555,
+    "log_Hdis": -0.19475044168960343
+  },
+  "n_train": 150,
+  "n_val": 15,
+  "n_test": 17,
+  "timestamp": "2025-06-12T00:06:08.190768"
+}

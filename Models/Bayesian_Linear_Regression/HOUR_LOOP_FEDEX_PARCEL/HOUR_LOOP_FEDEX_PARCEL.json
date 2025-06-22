@@ -1,0 +1,26 @@
+{
+  "ship_method": "HOUR_LOOP_FEDEX_PARCEL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.3790721567759968,
+    "log_volume": 0.6193981118420674,
+    "log_Hdis": 0.16675986466143866
+  },
+  "n_train": 847,
+  "n_val": 84,
+  "n_test": 94,
+  "timestamp": "2025-06-12T00:06:10.624467"
+}

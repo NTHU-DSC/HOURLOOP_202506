@@ -1,0 +1,26 @@
+{
+  "ship_method": "UBER_LTL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.39160250570306854,
+    "log_volume": 0.7453191172651608,
+    "log_Hdis": 0.142812939043758
+  },
+  "n_train": 401,
+  "n_val": 40,
+  "n_test": 44,
+  "timestamp": "2025-06-12T00:06:13.648312"
+}

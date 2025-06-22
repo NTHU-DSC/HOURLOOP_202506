@@ -1,0 +1,26 @@
+{
+  "ship_method": "AMAZON_LTL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.5779383653162723,
+    "log_volume": 0.3885260742271561,
+    "log_Hdis": 0.26887764618894017
+  },
+  "n_train": 3939,
+  "n_val": 393,
+  "n_test": 438,
+  "timestamp": "2025-06-12T00:06:00.448688"
+}

@@ -1,0 +1,26 @@
+{
+  "ship_method": "WWE_PARCEL",
+  "target_col": "log_cost",
+  "selected_features": [
+    "vendor_te",
+    "log_volume",
+    "log_Hdis"
+  ],
+  "num_features": [
+    "log_volume",
+    "log_Hdis"
+  ],
+  "cat_features": [
+    "vendor_te"
+  ],
+  "best_params": {},
+  "feature_importance": {
+    "vendor_te": 0.497565893922985,
+    "log_volume": 0.33727937203635117,
+    "log_Hdis": 0.12357922869903021
+  },
+  "n_train": 472,
+  "n_val": 47,
+  "n_test": 52,
+  "timestamp": "2025-06-12T00:06:20.086112"
+}
