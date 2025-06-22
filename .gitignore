@@ -16,14 +16,6 @@ App/utils/__pycache__/
 # Model files - 如果你只想讓 Git LFS 管理它們
 .DS_Store
 Models/Random_Forest/AMAZON_UPS_PARCEL/rf_AMAZON_UPS_PARCEL.pkl
-Models/Bayesian_Linear_Regression/WWE_LTL.pkl
-Models/Bayesian_Linear_Regression/AMAZON_FREIGHT/AMAZON_FREIGHT.pkl
-Models/Bayesian_Linear_Regression/AMAZON_LTL/AMAZON_LTL.pkl
-Models/Bayesian_Linear_Regression/AMAZON_UPS_PARCEL/AMAZON_UPS_PARCEL.pkl
-Models/Bayesian_Linear_Regression/ESTES/ESTES.pkl
-Models/Bayesian_Linear_Regression/HOUR_LOOP_FEDEX_PARCEL/HOUR_LOOP_FEDEX_PARCEL.pkl
-Models/Bayesian_Linear_Regression/UBER_LTL/UBER_LTL.pkl
-Models/Bayesian_Linear_Regression/WWE_PARCEL/WWE_PARCEL.pkl
 Models/FT_Transformer/AMAZON_FREIGHT/model_artifacts/AMAZON_FREIGHT_preprocessing.pkl
 Models/FT_Transformer/AMAZON_LTL/model_artifacts/AMAZON_LTL_preprocessing.pkl
 Models/FT_Transformer/AMAZON_UPS_PARCEL/model_artifacts/AMAZON_UPS_PARCEL_preprocessing.pkl
