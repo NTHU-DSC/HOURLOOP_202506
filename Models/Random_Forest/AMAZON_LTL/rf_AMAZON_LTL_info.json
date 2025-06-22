@@ -1,0 +1,25 @@
+{
+    "ship_method": "AMAZON_LTL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Hdis",
+        "vendor_name_encoded"
+    ],
+    "parameters": {
+        "n_estimators": 2000,
+        "max_depth": 17,
+        "min_samples_split": 3,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+    },
+    "trained_at": "2025-06-11",
+    "encoding": {
+        "vendor_name": {
+            "method": "target_encoding",
+            "source": "vendor_encoder_AMAZON_LTL.pkl",
+            "fallback_value": 4.8729,
+            "fallback_strategy": "mean(log_cost) in training set"
+        }
+    }
+}
