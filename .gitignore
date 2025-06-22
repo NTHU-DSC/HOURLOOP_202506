@@ -21,13 +21,3 @@ Models/Random_Forest/AMAZON_FREIGHT/vendor_encoder_AMAZON_FREIGHT.pkl
 Models/Random_Forest/AMAZON_LTL/rf_AMAZON_LTL.pkl
 Models/Random_Forest/AMAZON_LTL/vendor_encoder_AMAZON_LTL.pkl
 Models/Random_Forest/AMAZON_UPS_PARCEL/vendor_encoder_AMAZON_UPS_PARCEL.pkl
-Models/Random_Forest/ESTES/rf_ESTES.pkl
-Models/Random_Forest/ESTES/vendor_encoder_ESTES.pkl
-Models/Random_Forest/HOUR_LOOP_FEDEX_PARCEL/rf_HOUR_LOOP_FEDEX_PARCEL.pkl
-Models/Random_Forest/HOUR_LOOP_FEDEX_PARCEL/vendor_encoder_HOUR_LOOP_FEDEX_PARCEL.pkl
-Models/Random_Forest/UBER_LTL/rf_UBER_LTL.pkl
-Models/Random_Forest/UBER_LTL/vendor_encoder_UBER_LTL.pkl
-Models/Random_Forest/WWE_LTL/rf_WWE_LTL.pkl
-Models/Random_Forest/WWE_LTL/vendor_encoder_WWE_LTL.pkl
-Models/Random_Forest/WWE_PARCEL/rf_WWE_PARCEL.pkl
-Models/Random_Forest/WWE_PARCEL/vendor_encoder_WWE_PARCEL.pkl
