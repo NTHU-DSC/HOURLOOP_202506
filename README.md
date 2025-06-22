@@ -128,12 +128,6 @@ Upload a CSV file with multiple shipments:
 All results are downloadable as `.csv`.
 
 
-## 📚 reference\_code/
-
-* `SVR_final_release.ipynb` – Full SVR pipeline
-* `SVR_optuna_RBF.ipynb` – Optuna tuning log and search history
-* Used for traceable, reproducible ML development
-
 ---
 
 ## ⚠️ Disclaimer
