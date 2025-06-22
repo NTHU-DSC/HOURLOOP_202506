@@ -16,14 +16,6 @@ App/utils/__pycache__/
 # Model files - 如果你只想讓 Git LFS 管理它們
 .DS_Store
 Models/Random_Forest/AMAZON_UPS_PARCEL/rf_AMAZON_UPS_PARCEL.pkl
-Models/FT_Transformer/AMAZON_FREIGHT/model_artifacts/AMAZON_FREIGHT_preprocessing.pkl
-Models/FT_Transformer/AMAZON_LTL/model_artifacts/AMAZON_LTL_preprocessing.pkl
-Models/FT_Transformer/AMAZON_UPS_PARCEL/model_artifacts/AMAZON_UPS_PARCEL_preprocessing.pkl
-Models/FT_Transformer/ESTES/model_artifacts/ESTES_preprocessing.pkl
-Models/FT_Transformer/HOUR_LOOP_FEDEX_PARCEL/model_artifacts/HOUR_LOOP_FEDEX_PARCEL_preprocessing.pkl
-Models/FT_Transformer/UBER_LTL/model_artifacts/UBER_LTL_preprocessing.pkl
-Models/FT_Transformer/WWE_LTL/model_artifacts/WWE_LTL_preprocessing.pkl
-Models/FT_Transformer/WWE_PARCEL/model_artifacts/WWE_PARCEL_preprocessing.pkl
 Models/Random_Forest/AMAZON_FREIGHT/rf_AMAZON_FREIGHT.pkl
 Models/Random_Forest/AMAZON_FREIGHT/vendor_encoder_AMAZON_FREIGHT.pkl
 Models/Random_Forest/AMAZON_LTL/rf_AMAZON_LTL.pkl
