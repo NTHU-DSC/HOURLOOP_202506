@@ -12,8 +12,3 @@ App/utils/__pycache__/
 
 # MacOS 系統檔案
 .DS_Store
-
-# Model files - 如果你只想讓 Git LFS 管理它們
-.DS_Store
-Models/Random_Forest/AMAZON_LTL/rf_AMAZON_LTL.pkl
-Models/Random_Forest/AMAZON_LTL/vendor_encoder_AMAZON_LTL.pkl
