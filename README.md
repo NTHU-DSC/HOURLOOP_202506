@@ -81,7 +81,7 @@ We trained a dedicated model for each `ship_method`, using:
 * **Support Vector Regression (SVR)**
 * **Random Forest**
 * **CatBoost**
-* (In Progress) FT-Transformer
+* **FT-Transformer**
 
 Each model was tuned using grid search or Optuna and validated on hold-out time ranges.
 
