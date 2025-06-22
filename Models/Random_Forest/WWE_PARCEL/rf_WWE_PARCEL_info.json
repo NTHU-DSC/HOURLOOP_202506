@@ -1,0 +1,16 @@
+{
+    "ship_method": "WWE_PARCEL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Mdis"
+    ],
+    "parameters": {
+        "n_estimators": 1200,
+        "max_depth": 5,
+        "min_samples_split": 8,
+        "min_samples_leaf": 4,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11"
+}

@@ -1,0 +1,25 @@
+{
+    "ship_method": "UBER_LTL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_Mdis",
+        "vendor_name_encoded"
+    ],
+    "parameters": {
+        "n_estimators": 2000,
+        "max_depth": 5,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11",
+    "encoding": {
+        "vendor_name": {
+            "method": "target_encoding",
+            "source": "vendor_encoder_UBER_LTL.pkl",
+            "fallback_value": 4.8729,
+            "fallback_strategy": "mean(log_cost) in training set"
+        }
+    }
+}
