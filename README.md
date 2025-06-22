@@ -22,14 +22,6 @@ cd HOURLOOP
 streamlit run App/main.py
 ````
 
-### 🪟 Windows Users
-
-Double-click:
-
-```
-main.bat
-```
-
 ---
 
 ## 📂 Project Structure
