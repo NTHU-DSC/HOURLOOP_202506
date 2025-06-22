@@ -47,12 +47,3 @@ Models/Random_Forest/WWE_LTL/rf_WWE_LTL.pkl
 Models/Random_Forest/WWE_LTL/vendor_encoder_WWE_LTL.pkl
 Models/Random_Forest/WWE_PARCEL/rf_WWE_PARCEL.pkl
 Models/Random_Forest/WWE_PARCEL/vendor_encoder_WWE_PARCEL.pkl
-Models/SVR/AMAZON_FREIGHT/SVR_AMAZON_FREIGHT_model.pkl
-Models/SVR/AMAZON_LTL/SVR_AMAZON_LTL_model.pkl
-Models/SVR/AMAZON_UPS_PARCEL/SVR_AMAZON_UPS_PARCEL_model.pkl
-Models/SVR/ESTES/SVR_ESTES_model.pkl
-Models/SVR/HOUR_LOOP_FEDEX_PARCEL/SVR_HOUR_LOOP_FEDEX_PARCEL_model.pkl
-Models/SVR/reference code/my_encoders/my_encoders.pkl
-Models/SVR/reference code/my_functions/my_functions.pkl
-Models/SVR/UBER_LTL/SVR_UBER_LTL_model.pkl
-Models/SVR/WWE_PARCEL/SVR_WWE_PARCEL_model.pkl
