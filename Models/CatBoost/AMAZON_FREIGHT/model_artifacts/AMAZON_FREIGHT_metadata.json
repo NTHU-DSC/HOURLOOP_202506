@@ -1,0 +1,36 @@
+{
+  "ship_method": "AMAZON_FREIGHT",
+  "selected_features": [
+    "across_state",
+    "log_TVP",
+    "to_state",
+    "log_Hdis",
+    "log_weight"
+  ],
+  "best_params": {
+    "iterations": 1200,
+    "learning_rate": 0.037077320503940726,
+    "depth": 4,
+    "l2_leaf_reg": 2.242213072850095,
+    "bagging_temperature": 0.34287221332556844,
+    "random_strength": 7.566921004978699,
+    "border_count": 204,
+    "min_data_in_leaf": 42,
+    "max_ctr_complexity": 2
+  },
+  "feature_importance": {
+    "vendor_name": 0.014977491467835738,
+    "fc_code": 1.1421629240703848,
+    "from_state": 3.2753676721051024,
+    "to_state": 12.442743627311504,
+    "from_city": 1.2471742555029202,
+    "to_city": 0.0,
+    "log_TVP": 7.3180049274584364,
+    "log_weight": 46.70983892742074,
+    "log_volume": 5.315492224388587,
+    "log_Hdis": 15.600029559019076,
+    "across_state": 6.93420839125539
+  },
+  "target_col": "log_cost",
+  "timestamp": "2025-06-10T16:27:21.971776"
+}
