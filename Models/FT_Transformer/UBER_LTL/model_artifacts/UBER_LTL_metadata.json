@@ -1,0 +1,38 @@
+{
+  "ship_method": "UBER_LTL",
+  "selected_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP",
+    "vendor_name",
+    "fc_code"
+  ],
+  "best_params": {
+    "d_token": 32,
+    "n_blocks": 2,
+    "attention_heads": 4,
+    "attention_dropout": 0.4754064048635222,
+    "ffn_dropout": 0.030349543733675845,
+    "learning_rate": 0.004587633660512654,
+    "weight_decay": 0.0021461181296851257,
+    "batch_size": 64
+  },
+  "feature_importance": {
+    "log_weight": 1.0394272804260254,
+    "vendor_name": 0.15798015892505646,
+    "log_volume": 0.09042298793792725,
+    "log_TVP": 0.07122518867254257,
+    "fc_code": 0.07121258229017258
+  },
+  "target_col": "log_cost",
+  "num_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP"
+  ],
+  "cat_features": [
+    "vendor_name",
+    "fc_code"
+  ],
+  "timestamp": "2025-06-11T16:02:56.515628"
+}

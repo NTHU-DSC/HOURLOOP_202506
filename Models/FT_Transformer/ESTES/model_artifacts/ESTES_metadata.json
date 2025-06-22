@@ -1,0 +1,38 @@
+{
+  "ship_method": "ESTES",
+  "selected_features": [
+    "log_weight",
+    "log_TVP",
+    "log_volume",
+    "vendor_name",
+    "fc_code"
+  ],
+  "best_params": {
+    "d_token": 64,
+    "n_blocks": 2,
+    "attention_heads": 4,
+    "attention_dropout": 0.3176244201056214,
+    "ffn_dropout": 0.026534804140712392,
+    "learning_rate": 0.0029475198039692774,
+    "weight_decay": 0.00015163042468253692,
+    "batch_size": 64
+  },
+  "feature_importance": {
+    "log_weight": 0.9124500155448914,
+    "log_TVP": 0.38513699173927307,
+    "log_volume": 0.15980486571788788,
+    "vendor_name": 0.0,
+    "fc_code": -0.015087964944541454
+  },
+  "target_col": "log_cost",
+  "num_features": [
+    "log_weight",
+    "log_TVP",
+    "log_volume"
+  ],
+  "cat_features": [
+    "vendor_name",
+    "fc_code"
+  ],
+  "timestamp": "2025-06-11T14:39:13.094598"
+}

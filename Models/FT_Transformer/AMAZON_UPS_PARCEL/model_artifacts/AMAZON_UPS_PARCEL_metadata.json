@@ -1,0 +1,38 @@
+{
+  "ship_method": "AMAZON_UPS_PARCEL",
+  "selected_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP",
+    "vendor_name",
+    "fc_code"
+  ],
+  "best_params": {
+    "d_token": 192,
+    "n_blocks": 4,
+    "attention_heads": 8,
+    "attention_dropout": 0.2895057397387869,
+    "ffn_dropout": 0.05890480353368465,
+    "learning_rate": 0.00040192982562157315,
+    "weight_decay": 0.0018832783696416274,
+    "batch_size": 512
+  },
+  "feature_importance": {
+    "log_weight": 1.009094476699829,
+    "log_volume": 0.13197283446788788,
+    "vendor_name": 0.12477114051580429,
+    "fc_code": 0.05261083319783211,
+    "log_TVP": 0.025006761774420738
+  },
+  "target_col": "log_cost",
+  "num_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP"
+  ],
+  "cat_features": [
+    "vendor_name",
+    "fc_code"
+  ],
+  "timestamp": "2025-06-11T11:17:00.773307"
+}

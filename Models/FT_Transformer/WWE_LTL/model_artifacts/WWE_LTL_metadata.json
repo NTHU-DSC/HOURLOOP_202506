@@ -1,0 +1,38 @@
+{
+  "ship_method": "WWE_LTL",
+  "selected_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP",
+    "vendor_name",
+    "fc_code"
+  ],
+  "best_params": {
+    "d_token": 64,
+    "n_blocks": 2,
+    "attention_heads": 8,
+    "attention_dropout": 0.39613584529942364,
+    "ffn_dropout": 0.1791152933037124,
+    "learning_rate": 0.004514886108337536,
+    "weight_decay": 2.2523909582355796e-05,
+    "batch_size": 64
+  },
+  "feature_importance": {
+    "log_weight": 0.9396198391914368,
+    "log_volume": 0.23212280869483948,
+    "log_TVP": 0.030586030334234238,
+    "vendor_name": 0.02483554184436798,
+    "fc_code": 0.0020980476401746273
+  },
+  "target_col": "log_cost",
+  "num_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP"
+  ],
+  "cat_features": [
+    "vendor_name",
+    "fc_code"
+  ],
+  "timestamp": "2025-06-11T13:54:34.984873"
+}

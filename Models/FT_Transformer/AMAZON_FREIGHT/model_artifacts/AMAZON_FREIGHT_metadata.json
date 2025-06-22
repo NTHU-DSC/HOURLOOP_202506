@@ -1,0 +1,38 @@
+{
+  "ship_method": "AMAZON_FREIGHT",
+  "selected_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP",
+    "vendor_name",
+    "fc_code"
+  ],
+  "best_params": {
+    "d_token": 128,
+    "n_blocks": 3,
+    "attention_heads": 8,
+    "attention_dropout": 0.3935656453310396,
+    "ffn_dropout": 0.0005818910662371141,
+    "learning_rate": 0.0003536529861043576,
+    "weight_decay": 0.0007174201434467705,
+    "batch_size": 512
+  },
+  "feature_importance": {
+    "log_weight": 1.2863119840621948,
+    "log_volume": 0.37389180064201355,
+    "fc_code": 0.3089953064918518,
+    "vendor_name": 0.24893644452095032,
+    "log_TVP": 0.21457581222057343
+  },
+  "target_col": "log_cost",
+  "num_features": [
+    "log_weight",
+    "log_volume",
+    "log_TVP"
+  ],
+  "cat_features": [
+    "vendor_name",
+    "fc_code"
+  ],
+  "timestamp": "2025-06-11T16:33:45.355471"
+}
