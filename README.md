@@ -15,7 +15,6 @@ A machine learning system developed by **Hour Loop × NTHU DSC** to predict dome
 
 The app supports both **single shipment input** and **batch CSV uploads**, and automatically returns predicted costs and method rankings.
 
----
 
 ## 🚀 Quick Start
 
@@ -131,7 +130,6 @@ Upload a CSV file with multiple shipments:
 
 All results are downloadable as `.csv`.
 
----
 
 ## 📚 reference\_code/
 
@@ -146,7 +144,6 @@ All results are downloadable as `.csv`.
 This project is intended for research and educational purposes.
 All data used in this project is anonymized or internal to Hour Loop.
 
----
 
 ## 🤝 Credits
 
@@ -154,7 +151,6 @@ Developed by:
 Dennis Pai, Howard Sun, Ellina Tsao, Hailey Chang, Jonathan Lee, Amity Wu
 Hour Loop × National Tsing Hua University Data Science Club
 
----
 
 ## 📩 Contact
 
