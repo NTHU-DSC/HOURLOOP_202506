@@ -1,0 +1,17 @@
+{
+    "ship_method": "HOUR_LOOP_FEDEX_PARCEL",
+    "model_type": "RandomForestRegressor",
+    "input_features": [
+        "log_weight",
+        "log_TVP",
+        "log_Hdis"
+    ],
+    "parameters": {
+        "n_estimators": 1400,
+        "max_depth": 8,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": null
+    },
+    "trained_at": "2025-06-11"
+}
