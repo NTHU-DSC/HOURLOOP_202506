@@ -1,19 +1,16 @@
 # Machine Learning Driven Shipping Cost Modelling and Decision Optimization
 
 ## 🚚 Project Overview
+A machine learning system developed by **Hour Loop × NTHU DSC** to predict domestic U.S. shipping costs across various shipment methods using real order features.
+
+The app supports both **single shipment input** and **batch CSV uploads**, and automatically returns predicted costs and method rankings.
+
 This repository contains a multi-model machine learning pipeline to predict shipping cost for different shipping methods in the US domestic logistics market. The models are tailored to each `ship_method`, improving forecasting accuracy and aiding operational decisions.
 
 ## 🎯 Goal
 - Predict shipping cost using tabular order features
 - Support multiple shipping methods (e.g., AMAZON_FREIGHT, UPS_PARCEL...)
 - Provide ranked suggestions for lowest estimated cost
-
-
-# 📦 Hour Loop Shipping Cost Predictor 
-
-A machine learning system developed by **Hour Loop × NTHU DSC** to predict domestic U.S. shipping costs across various shipment methods using real order features.
-
-The app supports both **single shipment input** and **batch CSV uploads**, and automatically returns predicted costs and method rankings.
 
 
 ## 🚀 Quick Start
