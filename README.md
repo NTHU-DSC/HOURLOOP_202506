@@ -27,7 +27,7 @@ streamlit run App/main.py
 ## 📂 Project Structure
 
 ```
-HOURLOOP-1/
+HOURLOOP/
 ├── App/                     # Streamlit app and integration logic
 │   ├── main.py              # Entry point
 │   └── utils/               # Core logic and pre-processing
@@ -58,7 +58,6 @@ HOURLOOP-1/
 │   └── SVR_optuna_RBF.ipynb
 │
 ├── .gitignore
-├── main.bat
 └── README.md
 ```
 
