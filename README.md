@@ -37,6 +37,10 @@ HOURLOOP/
 │       ├── fc.csv
 │       ├── featuredata.json
 │       └── vendors.json
+│   ├── encoders/                # Target encoders for categorical fields
+│       ├── from_state/
+│       ├── to_state/
+│       └── vendor_name/
 │
 ├── models/                  # Pre-trained models (by algorithm)
 │   ├── SVR/
@@ -45,10 +49,6 @@ HOURLOOP/
 │   ├── CatBoost/
 │   └── FT-Transformer/
 │
-├── encoders/                # Target encoders for categorical fields
-│   ├── from_state/
-│   ├── to_state/
-│   └── vendor_name/
 │
 ├── data/                    # Sample input data
 │   └── ESTES_test.csv
