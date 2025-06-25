@@ -30,6 +30,7 @@ streamlit run App/main.py
 HOURLOOP/
 ├── App/                     # Streamlit app and integration logic
 │   ├── main.py              # Entry point
+│   ├── main.bat
 │   └── utils/               # Core logic and pre-processing
 │       ├── check_data.py
 │       ├── datapipeline.py
@@ -37,25 +38,29 @@ HOURLOOP/
 │       ├── fc.csv
 │       ├── featuredata.json
 │       └── vendors.json
-│   ├── encoders/                # Target encoders for categorical fields
+│   └── encoders/                # Target encoders for categorical fields
 │       ├── from_state/
 │       ├── to_state/
 │       └── vendor_name/
+│   └── models/                  # models used in UI 
+│       ├── SVR/
+│       ├── Bayesian/
+│       ├── RandomForest/
+│       ├── CatBoost/
+│       └── FT-Transformer/
 │
-├── models/                  # Pre-trained models (by algorithm)
+├── Models/                  # Pre-trained models and their relative files
 │   ├── SVR/
 │   ├── Bayesian/
 │   ├── RandomForest/
 │   ├── CatBoost/
 │   └── FT-Transformer/
 │
-│
 ├── data/                    # Sample input data
 │   └── ESTES_test.csv
 │
 ├── reference_code/          # Model training and tuning notebooks
-│   ├── SVR_final_release.ipynb
-│   └── SVR_optuna_RBF.ipynb
+│   └── *.ipynb
 │
 ├── .gitignore
 └── README.md
