@@ -3,7 +3,7 @@
 ## 🚚 Project Overview
 A machine learning system developed by **Hour Loop × NTHU DSC** to predict domestic U.S. shipping costs across various shipment methods using real order features.
 
-The app supports both **single shipment input** and **batch CSV uploads**, and automatically returns predicted costs and method rankings.
+The system supports both **single shipment input** and **batch CSV uploads**, returning predicted costs and ranked shipping methods. Each shipping method (ship_method) is trained with a dedicated model, and predictions are generated using an ensemble of top-performing models.
 
 This repository contains a multi-model machine learning pipeline to predict shipping cost for different shipping methods in the US domestic logistics market. The models are tailored to each `ship_method`, improving forecasting accuracy and aiding operational decisions.
 
@@ -28,42 +28,23 @@ streamlit run App/main.py
 
 ```
 HOURLOOP/
-├── App/                     # Streamlit app and integration logic
-│   ├── main.py              # Entry point
-│   ├── main.bat
-│   └── utils/               # Core logic and pre-processing
-│       ├── check_data.py
-│       ├── datapipeline.py
-│       ├── predict.py
-│       ├── fc.csv
-│       ├── featuredata.json
-│       └── vendors.json
-│   └── encoders/                # Target encoders for categorical fields
-│       ├── from_state/
-│       ├── to_state/
-│       └── vendor_name/
-│   └── models/                  # models used in UI 
-│       ├── SVR/
-│       ├── Bayesian/
-│       ├── RandomForest/
-│       ├── CatBoost/
-│       └── FT-Transformer/
+├── App/                    
+│   ├── main.py              # Streamlit UI entry point
+│   ├── utils/               # Core logic modules
+│   │   ├── datapipeline.py      # Feature generation + encoding
+│   │   ├── predict.py           # Final model prediction logic
+│   │   ├── check_data.py        # Validation for inputs
+│   │   ├── fc.csv, vendors.json # Location + vendor mappings
+│   │   └── featuredata.json     # Feature configs per model
+│   ├── encoders/            # Categorical encoders (pkl)
+│   └── models/              # Model files by method + type
+│       ├── SVR/, CatBoost/, FT-Transformer/...
 │
-├── Models/                  # Pre-trained models and their relative files
-│   ├── SVR/
-│   ├── Bayesian/
-│   ├── RandomForest/
-│   ├── CatBoost/
-│   └── FT-Transformer/
-│
-├── data/                    # Sample input data
-│   └── ESTES_test.csv
-│
-├── reference_code/          # Model training and tuning notebooks
-│   └── *.ipynb
-│
-├── .gitignore
-└── README.md
+├── Models/                  # Raw/backup model folders
+├── reference_code/          # Jupyter Notebooks (training)
+├── requirements.txt         # Dependency list
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -81,12 +62,13 @@ We trained a dedicated model for each `ship_method`, using:
 
 Each model was tuned using grid search or Optuna and validated on hold-out time ranges.
 
-Encoded features include:
+### Feature Engineering Highlights
 
 * `log_weight`, `log_volume`, `log_TVP/log_weight`, `log_distance`
-* Target encoding for vendor\_name
-* Frequency encoding for locations (state, city)
-
+* Target Encoding: `vendor_name`
+* Frequency Encoding: `from_state`, `to_city`, `fc_code`
+* Derived Features: `across_state`, distance metrics
+* 
 ---
 
 ## 💻 UI Features
@@ -123,6 +105,12 @@ Upload a CSV file with multiple shipments:
 
 All results are downloadable as `.csv`.
 
+
+---
+
+## 📸 UI Preview
+
+![Single Shipment UI](UI_preview.png)
 
 ---
 
