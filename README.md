@@ -107,11 +107,10 @@ Upload a CSV file with multiple shipments:
 All results are downloadable as `.csv`.
 
 
----
-
 ## 📸 UI Preview
 
 <img src="UI_preview.png" alt="UI Preview" width="600"/>
+
 ---
 
 ## ⚠️ Disclaimer
