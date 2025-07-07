@@ -1,7 +1,8 @@
 # Machine Learning Driven Shipping Cost Modelling and Decision Optimization
 
-## 🚚 Project Overview
 A machine learning system developed by **Hour Loop × NTHU DSC** to predict domestic U.S. shipping costs across various shipment methods using real order features.
+
+## 🚚 Project Overview
 
 The system supports both **single shipment input** and **batch CSV uploads**, returning predicted costs and ranked shipping methods. Each shipping method (ship_method) is trained with a dedicated model, and predictions are generated using an ensemble of top-performing models.
 
