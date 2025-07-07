@@ -123,6 +123,7 @@ All data used in this project is anonymized or internal to Hour Loop.
 
 Developed by:
 Dennis Pai, Howard Sun, Ellina Tsao, Hailey Chang, Jonathan Lee, Amity Wu
+
 Hour Loop × National Tsing Hua University Data Science Club
 
 
