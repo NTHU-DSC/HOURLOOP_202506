@@ -69,7 +69,7 @@ Each model was tuned using grid search or Optuna and validated on hold-out time 
 * Target Encoding: `vendor_name`
 * Frequency Encoding: `from_state`, `to_city`, `fc_code`
 * Derived Features: `across_state`, distance metrics
-* 
+
 ---
 
 ## 💻 UI Features
