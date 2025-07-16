@@ -23,6 +23,8 @@ cd App
 streamlit run main.py
 ````
 
+💡 **Note**: You may use **git lfs clone** to prevent from file corruption.
+
 ---
 
 ## 📂 Project Structure
